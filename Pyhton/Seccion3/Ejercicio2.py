@@ -16,7 +16,7 @@ EP: examen parcial
 EF: examen final
 
 '''
-print("Calculadora de evaluacion del alumno")
+print("Calculadora de evaluacion del alumno \n")
 
 P1 = float(input('Ingresa el valor de la EV1:'))
 P2 = float(input('Ingresa el valor de la EV2:'))
@@ -31,10 +31,9 @@ PROM = (PP + 2*EP + 3*EF) / 6
 
 calificacion = (PP + PROM) / 2
 
-if (calificacion <= 60): 
-
-    print("Sacaste {calificacion}, no pasaste D: ")
+if (calificacion >= 70): 
+    print("Sacaste:",calificacion,"pasaste :D ")
 
 else:
-    print("Sacaste: {calificacion}, pasaste :D ")
+    print("Sacaste:",calificacion,"no pasaste D: ")
 

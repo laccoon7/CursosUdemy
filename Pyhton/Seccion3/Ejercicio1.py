@@ -29,5 +29,6 @@ x2 = 0
 if ((b**2) - (4*a*c)) <0:
     print("No se puede realizar porque no se puede scar la raiz cuadrada de un numero negativo")
 else:
-    x1 = (-b + sqrt((b**2)-(4*a*c))/(2*a))
-    x2 = (-b - sqrt((b**2)-(4*a*c))/(2*a))
+    x1 = (-b + sqrt(((b**2)-(4*a*c))))/(2*a)
+    x2 = (-b - sqrt(((b**2)-(4*a*c))))/(2*a)
+    print("La solucion es: \nx1=",x1, "\nx2=",x2)
