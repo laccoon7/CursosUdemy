@@ -5,3 +5,5 @@ print(nombre)
 print(edad)
 
 print("Hola ",nombre, "tienes ",edad)
+
+print("Hola {} tienes {}".format(nombre,edad))
