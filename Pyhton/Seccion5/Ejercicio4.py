@@ -4,3 +4,18 @@ Crear un programa que permita al usuario elegir un candidato por el cual votar. 
 Pista: Si la letra ingresada por el usuario es en minúscula, el programa debe convertirla en mayúscula
 '''
 
+CandidatoA = "A"
+CandidatoB = "B"
+CandidatoC = "C"
+
+print("Candidatos: A, B, C")
+votoUsuario = input("Ingrese su voto: ")
+
+if votoUsuario.upper() == CandidatoA:
+    print("Usted ha votado por el partido rojo")
+elif votoUsuario.upper() == CandidatoB:
+    print("Usted ha votado por el partido verde")
+elif votoUsuario.upper() == CandidatoC:
+    print("Usted ha votado por el partido azul")
+else:
+    print("Opción errónea, intente de nuevo")

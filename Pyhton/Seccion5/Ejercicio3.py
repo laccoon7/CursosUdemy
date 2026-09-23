@@ -5,7 +5,9 @@ Escribe un programa que pida dos palabras y diga si riman o no. Si coinciden las
 palabra1 = input("Ingresa tu primera palabra: ")
 palabra2 = input("Ingresa tu segunda palabra: ")
 
-if palabra1[-3:0] == palabra2[-3:0]:
+if len(palabra1) < 3 or len(palabra2) <3:
+    print("Alguna de las palabras tienen insuficientes caracteres para rimar")
+elif palabra1[-3:0] == palabra2[-3:0]:
     print("Las palabras riman!!")
 elif palabra1[-2:0] == palabra2[-2:0]:
     print("Las palabras solo un poquito..")
