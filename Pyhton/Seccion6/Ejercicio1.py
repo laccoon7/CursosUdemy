@@ -14,7 +14,7 @@ dato1 = input("Ingresa el primer dato: ")
 dato2 = input("Ingresa el segundo dato: ")
 
 
-lista.insert(0 , dato1)
-lista.insert(1 , dato2)
+lista[0] = dato1
+lista[1] = dato2
 
 print("Esta es tu nueva lista:\n{}".format(lista))
