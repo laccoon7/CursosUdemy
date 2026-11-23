@@ -9,3 +9,8 @@ print(lista)
 j = int(input("Digita el primer numero en rango: "))
 i = int(input("Digita el segundo numero en rango: "))
 
+if j < i:
+    for d in range(j,i+1):
+        print(d)
+else:
+    print("Ingresa un numero mas pequeño que el primero")
